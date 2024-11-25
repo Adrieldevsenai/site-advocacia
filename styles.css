@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333333;
+    line-height: 1.6;
+}
+
+.header {
+    background: #415d79;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.about-section, .services-section, .contact-section {
+    padding: 2rem 0;
+    background: #ecf0f1;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.services {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.service {
+    background: #fff;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 30%;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #2c3e50;
+    color: #fff;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    background: #3498db;
+    color: #fff;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #2980b9;
+}
+
+.image-row {
+    display: flex;
+    justify-content: space-around; /* Espaçamento entre as imagens */
+    align-items: center; /* Alinha verticalmente */
+    gap: 10px; /* Espaçamento entre imagens */
+}
+
+.image-row img {
+    max-width: 100%; /* Ajusta para não ultrapassar o container */
+    height: auto; /* Mantém a proporção */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
